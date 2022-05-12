@@ -9,19 +9,6 @@ RGB: rgb(260, 260, 200); 1º Red 2º Green 3ºBlue
 Nomes: red green blue 
 */
 
-body {
-    background: #f8f6f6;
-}
-
-h1 {
-    text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-p {
-    text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
 
 /*Especificando elementos por sua cadeia de marcações 
 nesse caso estamos dizendo para pintar de vermelho todas
@@ -35,10 +22,47 @@ em strong {
 
 /*Id que referencia paragrafo especifico*/
 
+.tituloprincipal {
+    padding-left: 20px; /*espaçamento a esquerda de 20 pixels do header*/
+}
+
+#banner {
+    width: 100%;    
+}
+
+.principal {
+    background: #c8c7c7;
+    padding: 20px;
+    padding-bottom: 25px;
+}
+
 #missao{
     font-size: 20px
 } 
 
-#banner {
-    width: 100%;    
+p {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.itens {
+    font-style: italic;
+}
+
+.beneficios {
+    background: #FFFFFF;
+    padding: 20px;          /*respiro de 20px em todos os elementos ajuda na organização dos mesmos*/
+}
+
+
+ul {
+    display: inline-block;  /*Permite que ela seja posicionado junto com outro elemento na mesma linha*/
+    vertical-align: top;    /*Alinha de forma vertical no topo da pagina*/
+    width: 20%;             /*lista ocupa 20% da pagina*/
+    margin-right: 15%;      /*Margem(respiro) de 15% na direita do elemento*/
+}
+
+.imagembeneficios{
+    width: 50%;
+
 }
