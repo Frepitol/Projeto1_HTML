@@ -1,0 +1,20 @@
+header {
+    background: #BBBBBB;
+}
+
+/*Links para as paginas em ul*/
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px; /*Adiciona pequenos espaços a esquerda das palavras*/
+}
+
+nav a {
+    text-transform: uppercase; /*Transforma texto caixa alta*/
+    color: #000000;
+    font-weight: bold; /*espessura da fonte - negrito*/
+    font-size: 22px;
+    text-decoration: none;/*Tira o sublinhado dos links*/
+    
+}
+
